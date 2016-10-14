@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>myweb</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/index.css -->
+    <link rel="stylesheet" href="styles/index.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body ng-app="myApp" ng-controller="indexController">
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+
+      <div class="jumbotron">
+        <h3 class="page-header">用户登录</h3>
+        <hr/>
+        <div class="form-group">
+            <label>用户名：</label>
+            <input class="form-control" pattern="请输入用户名"/>
+        </div>
+        <div class="form-group">
+            <label>密码：</label>
+            <input type="password" class="form-control"/>
+        </div>
+        <div class="form-group" style="margin-top:30px;">
+            <button class="btn btn-primary form-control" ng-click="loginIn()">登录</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- build:js scripts/vendor.js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/angular.js -->
+    <script src="/bower_components/angular/angular.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js /scripts/index.js -->
+    <script src="/scripts/index.js"></script>
+    <!-- endbuild -->
+
+  </body>
+</html>

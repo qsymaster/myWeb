@@ -1,0 +1,230 @@
+<!doctype html>
+<html class="no-js" lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>myweb</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css /styles/main.css -->
+    <link rel="stylesheet" href="/styles/main.css">
+    <!-- endbuild -->
+
+    <!--  fontawesome 核心 CSS 文件 -->
+    <!-- build:css /styles/fontawesome.css -->
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css">
+    <!-- endbuild -->
+
+    <!--  metisMenu 核心 CSS 文件 -->
+    <!-- build:css /styles/metisMenu.css -->
+    <link rel="stylesheet" href="/bower_components/metisMenu/dist/metisMenu.css">
+    <!-- endbuild -->
+
+  </head>
+  <body ng-app="myApp">
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- 左侧菜单开始 -->
+    <nav class="qsy-navigation">
+        <div class="nav-header">
+            <address class="btn-group">
+                <img alt="image" class="img-circle"
+                    src="/images/profile_small.jpg" /> <br /> <strong>Full
+                    Name</strong><br /> <a data-toggle="dropdown" class="dropdown-toggle"
+                    href="#">超级管理员<b class="caret"></b></a>
+                <ul class="dropdown-menu animated m-t-xs">
+                    <li><a href="form_avatar.html">修改头像</a></li>
+                    <li><a href="profile.html">个人资料</a></li>
+                    <li><a href="contacts.html">联系我们</a></li>
+                    <li><a href="mailbox.html">信箱</a></li>
+                    <li class="divider"></li>
+                    <li><a href="login.html">安全退出</a></li>
+                </ul>
+            </address>
+        </div>
+        <div class="sidebar-nav">
+            <div id="nav-menu" class="nav-menu">
+                <ul class="metismenu" id="menu">
+                    <li class="active">
+                        <a href="#" aria-expanded="true">
+                            <span class="sidebar-nav-item-icon fa fa-home"></span>
+                            <span class="sidebar-nav-item">首页</span>
+                            <span class="glyphicon arrow"></span>
+                        </a>
+                        <ul aria-expanded="true">
+                            <li>
+                                <a href="fork.html" data_id="fork">
+                                    <span class="sidebar-nav-item-icon fa fa-code-fork"></span>
+                                    Fork
+                                </a>
+                            </li>
+                            <li>
+                                <a href="star.html" data_id="star">
+                                    <span class="sidebar-nav-item-icon fa fa-star"></span>
+                                    star
+                                </a>
+                            </li>
+                            <li>
+                                <a href="issus.html" data_id="issus">
+                                    <span class="sidebar-nav-item-icon fa fa-exclamation-triangle"></span>
+                                    issus
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" aria-expanded="false">
+                            系统统计
+                            <span class="glyphicon arrow"></span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li>
+                                <a href="fork1.html" data_id="fork1">
+                                    <span class="sidebar-nav-item-icon fa fa-code-fork"></span>
+                                    Fork1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="fork2.html" data_id="fork2">
+                                    <span class="sidebar-nav-item-icon fa fa-code-fork"></span>
+                                    Fork2
+                                </a>
+                            </li>
+                            <li>
+                                <a href="fork3.html" data_id="fork3">
+                                    <span class="sidebar-nav-item-icon fa fa-code-fork"></span>
+                                    Fork3
+                                </a>
+                            </li>
+                            <li>
+                                <a href="fork4.html" data_id="fork4">
+                                    <span class="sidebar-nav-item-icon fa fa-code-fork"></span>
+                                    Fork4
+                                </a>
+                            </li>
+                            <li>
+                                <a href="fork5.html" data_id="fork5">
+                                    <span class="sidebar-nav-item-icon fa fa-code-fork"></span>
+                                    Fork5
+                                </a>
+                            </li>
+                            <li>
+                                <a href="fork6.html" data_id="fork6">
+                                    <span class="sidebar-nav-item-icon fa fa-code-fork"></span>
+                                    Fork6
+                                </a>
+                            </li>
+                            <li>
+                                <a href="fork7.html" data_id="fork7">
+                                    <span class="sidebar-nav-item-icon fa fa-code-fork"></span>
+                                    Fork7
+                                </a>
+                            </li>
+                            <li>
+                                <a href="fork8.html" data_id="fork8">
+                                    <span class="sidebar-nav-item-icon fa fa-code-fork"></span>
+                                    Fork8
+                                </a>
+                            </li>
+                            <li>
+                                <a href="fork9.html" data_id="fork9">
+                                    <span class="sidebar-nav-item-icon fa fa-code-fork"></span>
+                                    Fork9
+                                </a>
+                            </li>
+                            <li>
+                                <a href="fork10.html" data_id="fork10">
+                                    <span class="sidebar-nav-item-icon fa fa-code-fork"></span>
+                                    Fork11
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#" aria-expanded="false">系统设置 <span
+                            class="glyphicon arrow"></span>
+                    </a>
+                        <ul aria-expanded="false">
+                            <li><a href="#">item 0.1</a></li>
+                            <li><a href="#">item 0.2</a></li>
+                            <li><a href="http://onokumus.com">onokumus</a></li>
+                            <li><a href="#">item 0.4</a></li>
+                            <li><a href="#">item 0.1</a></li>
+                            <li><a href="#">item 0.2</a></li>
+                            <li><a href="http://onokumus.com">onokumus</a></li>
+                            <li><a href="#">item 0.4</a></li>
+                            <li><a href="#">item 0.1</a></li>
+                            <li><a href="#">item 0.2</a></li>
+                            <li><a href="http://onokumus.com">onokumus</a></li>
+                            <li><a href="#">item 0.4</a></li>
+                            <li><a href="#">item 0.1</a></li>
+                            <li><a href="#">item 0.2</a></li>
+                            <li><a href="http://onokumus.com">onokumus</a></li>
+                            <li><a href="#">item 0.4</a></li>
+                        </ul></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 左侧菜单结束 -->
+    <!-- 菜单收缩切换按钮开始 -->
+    <div class="dislpayArrow">
+        <a href="javascript:void(0);" onClick="displaynavbar(this)"></a>
+    </div>
+    <!-- 菜单收缩切换按钮结束 -->
+    <!-- 头部信息开始 -->
+    <header class="qsy-header">
+        <div class="form-inline">
+            <div style="color:#DFE4ED;font-weight:block;" class="text-right">2016年09月26日 星期一</div>
+        </div>
+    </header>
+    <!-- 头部信息结束 -->
+    <!--右侧部分开始-->
+    <section class="qsy-body">
+        <div class="menu-tabs">
+            <button id="rollLeft" class="roll-nav roll-left">
+                <span class="fa fa-backward"></span>
+            </button>
+            <nav id="myTab" class="tab_menu">
+                <a class="active" href="#tab_0" data-toggle="tab">首页</a>
+            </nav>
+            <button id="rollRight" class="roll-nav roll-right">
+                <span class="fa fa-forward"></span>
+            </button>
+        </div>
+        <!-- Tab panes -->
+        <div id="tabContent" class="tab-content">
+            <iframe role="tabpanel" src="home.html" class="tab-pane active" id="tab_0"></iframe>
+        </div>
+    </section>
+    <!--右侧部分结束-->
+
+    <!-- build:js /scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js /scripts/angular.js -->
+    <script src="/bower_components/angular/angular.js"></script>
+    <!-- endbuild -->
+
+    <!-- metisMenu 核心 JavaScript 文件 -->
+    <!-- build:js /scripts/metisMenu.js -->
+	<script src="/bower_components/metisMenu/dist/metisMenu.js"></script>
+    <!-- endbuild -->
+
+	<!-- slimscroll 核心 JavaScript 文件 -->
+    <!-- build:js /scripts/jquery.slimscroll.js -->
+	<script src="/bower_components/jquery-slimscroll/jquery.slimscroll.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js /scripts/main.js -->
+    <script src="/scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
